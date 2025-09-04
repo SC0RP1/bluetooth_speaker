@@ -1,9 +1,11 @@
 // Bluetooth speaker
 $fn = 640;
-cube([5, 10, 30], center = true);
+//walls();
 
-difference() {
-    cylinder(d = 80, h = 150, center = true);
-    color("red")
-    cylinder(d = 80-5, h = 160, center = true);
+module walls() {
+    difference() {
+        cylinder(d = 80, h = 150, center = true);
+        color("red")
+        cylinder(d = 80-5, h = 160, center = true);
+    }
 }
