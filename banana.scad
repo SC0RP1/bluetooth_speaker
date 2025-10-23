@@ -6,7 +6,27 @@ diam_hole = 5.4 + 0.5;
 
 banana();
 
+//difference() {
+//    banana();
+//    translate([0, -40/2, 0])
+//    cube([20+1,40+1,25+1], center = true);
+//}
 
+
+module support() {
+    difference() {
+        translate([-2, 0, -2])
+        cube([20-3-1,40-6-1,25-3-1], center = true);
+        translate([-85/2-4, 0, 0])
+        cylinder(d = 80 + 5/2 + 1, h = 150, center = true);
+        
+            
+        translate([-85/2-5, 0, -15])
+        cylinder(d = 90 + 1, h = 10, center = true);
+    }
+}
+
+support();
 
 //translate([0, 0, -25/2-0.5])
 //banana();
@@ -27,6 +47,8 @@ module banana() {
         base();
         holes_banana();
     }
+    color("red")
+    support();
 }
 
 module base() {
