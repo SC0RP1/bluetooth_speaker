@@ -4,13 +4,16 @@ include <nut_banana.scad>
 $fn = 64;
 diam_hole = 5.4 + 0.5;
 
-banana();
+
+support();
+//banana();
 
 //difference() {
 //    banana();
 //    translate([0, -40/2, 0])
 //    cube([20+1,40+1,25+1], center = true);
 //}
+
 
 
 module support() {
@@ -23,10 +26,11 @@ module support() {
             
         translate([-85/2-5, 0, -15])
         cylinder(d = 90 + 1, h = 10, center = true);
+        
+        translate([-47, 0, 15-0.1])
+        cylinder(d1=90, d2=0, h=50, center = true);
     }
 }
-
-support();
 
 //translate([0, 0, -25/2-0.5])
 //banana();
@@ -47,7 +51,7 @@ module banana() {
         base();
         holes_banana();
     }
-    color("red")
+
     support();
 }
 
