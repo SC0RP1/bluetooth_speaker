@@ -5,8 +5,20 @@ $fn = 64;
 diam_hole = 5.4 + 0.5;
 
 
-support();
-//banana();
+//support();
+banana();
+mini_support();
+
+module mini_support() {
+    translate([-8.5, 18.5, -11.5])
+    rotate([0, 0, 25])
+    cube([3,3,2.5], center = true);
+    
+    mirror([0, 1, 0])
+    translate([-8.5, 18.5, -11.5])
+    rotate([0,0,25])
+    cube([3,3,2.5], center = true);
+}
 
 //difference() {
 //    banana();
