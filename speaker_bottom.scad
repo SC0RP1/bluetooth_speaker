@@ -2,7 +2,7 @@
 include <speaker_walls.scad>;
 $fn = 640;
 
-bottom_kit();
+//bottom_kit();
 
 
 module bottom_kit() {
