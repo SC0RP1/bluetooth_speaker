@@ -1,7 +1,8 @@
 # Работа Газмагомадова Ислама
 # Проект "Bluetooth колонка" на языке OpenScad
 
-![Model in OpenScad bluetooth speaker](images/bluetooth_speaker.png)(images/bluetooth_speaker2.png)
+![Model in OpenScad bluetooth speaker](images/bluetooth_speaker.png)
+![bluetooth speaker](images/bluetooth_speaker2.png)
 
 Модель для 3D-печати Bluetooth-колонки, которая используется для проведения физического опыта по визуализации звука фигурами 
 Лиссажу. Экспериментальная установка состоит из динамика, расположенного горизонтально на стенках колонки, покрытого 
