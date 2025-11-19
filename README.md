@@ -13,4 +13,8 @@
 Модель колодки для электродов типа "банан":
 
 ### Комплект демонстрации фигур Хладни компании PHYWE
+<<<<<<< HEAD
 [Комплект для эксперимента](https://www.phywe.com/ru/eksperimenty-i-nabory/universitet_10173_11104/) на официальном сайте
+=======
+[Комплект для эксперимента](https://kr2020.ru/shop/komplekt-dlya-postroeniya-figur-hladni-phywe/?ysclid=mi5mw08mv3419931039) на официальном сайте
+>>>>>>> 5d44f7d4053bf45b7b4db4f25cf9f5337872c8c8
